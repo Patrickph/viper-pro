@@ -60,7 +60,7 @@ class GamesKeyPage extends Page implements HasForms
         return $form
             ->schema([
                 Section::make('Drakon API')
-                    ->description('Compre direto pelo site: https://drakon.casino')
+                    ->description('Compre direto pelo site: https://drakon.casino - Telegram: ')
                     ->schema([
                         TextInput::make('drakon_agent_code')
                             ->label('Agent Code')
